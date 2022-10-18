@@ -1,3 +1,4 @@
+import truc
 import pygame
 import sys
 import random
@@ -1281,6 +1282,7 @@ button_rect = button.get_rect(center=(width/2, height/2))
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
+            truc.quit()
             pygame.quit()
             sys.exit()
 
