@@ -1,1 +1,1 @@
-A game made with pygame.
+A roguelike game made with pygame.
